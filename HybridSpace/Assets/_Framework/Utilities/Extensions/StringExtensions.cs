@@ -1,8 +1,11 @@
 ﻿using System;
-using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
+
+#if !UNITY_ANDROID
+using System.CodeDom.Compiler;
+#endif
 
 namespace Extensions
 {
@@ -51,7 +54,7 @@ namespace Extensions
         /// <param name="options">Additional options for identifier conversion.</param>
         /// <param name="enclosingType">The name of the enclosing type.</param>
         public static string ToIdentifier(this string str, string enclosingType, IdentifierOptions options) => str.ToIdentifierBase(options).ToIdentifierCatchEdgeCases(enclosingType);
-        #endregion
+#endregion
 
         #region ToIdentifiers Methods
         /// <summary>Creates valid identifiers out of the passed enumerator of strings.</summary>
@@ -102,7 +105,7 @@ namespace Extensions
             enumerable = enumerable.Select(it => it.ToIdentifier(enclosingType, options));
             return enumerable.RemoveDuplicateIdentifiers(allowDuplicates);
         }
-        #endregion
+#endregion
 
         #region ToCase Methods
         /// <summary>Capitalizes each word and removes whitespace.</summary>
@@ -143,7 +146,7 @@ namespace Extensions
 
             return str.ToIdentifierCatchEdgeCases(enclosingType);
         }
-        #endregion
+#endregion
 
         #region ToCases Methods
         /// <summary>Creates valid Pascal Cases out of the passed enumerator of strings.</summary>
@@ -203,7 +206,7 @@ namespace Extensions
             enumerable = enumerable.Select(it => it.ToCamelCase(enclosingType));
             return enumerable.RemoveDuplicateIdentifiers(allowDuplicates);
         }
-        #endregion
+#endregion
 
         #region ToIdentifier Base Methods
         private static string ToIdentifierBase(this string str, IdentifierOptions options)
@@ -309,13 +312,15 @@ namespace Extensions
             if(str == enclosingType)
                 str = emptyIdentifierReplacement + str;
 
+            #if !UNITY_ANDROID
             CodeDomProvider provider = CodeDomProvider.CreateProvider("C#");
             str = provider.CreateEscapedIdentifier(str);
             provider.Dispose();
+            #endif
 
             return str;
         }
-        #endregion
+#endregion
 
         /// <summary>Replaces the strings line endings with the system environments line endings.</summary>
         public static string FixLineEndings(this string str)

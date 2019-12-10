@@ -1,8 +1,11 @@
 ﻿using System;
-using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
+
+#if !UNITY_ANDROID
+using System.CodeDom.Compiler;
+#endif
 
 namespace PublicDisplayer
 {
@@ -309,9 +312,11 @@ namespace PublicDisplayer
             if(str == enclosingType)
                 str = emptyIdentifierReplacement + str;
 
+            #if !UNITY_ANDROID
             CodeDomProvider provider = CodeDomProvider.CreateProvider("C#");
             str = provider.CreateEscapedIdentifier(str);
             provider.Dispose();
+            #endif
 
             return str;
         }
