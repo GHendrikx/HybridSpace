@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Klarinet" size="0.060000 0.109817" />
     <ImageTarget name="Kleurenboom" size="39.500000 52.666668" />
     <ImageTarget name="Astronaut_scaled" size="0.578947 1.000719" />
   </Tracking>
