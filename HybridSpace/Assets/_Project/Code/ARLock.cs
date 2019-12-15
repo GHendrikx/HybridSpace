@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using Vuforia;
 
 public class ARLock : MonoBehaviour
@@ -11,6 +9,8 @@ public class ARLock : MonoBehaviour
     private ImageTargetBehaviour key = null;
     [SerializeField]
     private TrackableBehaviour.Status unlockStatus = TrackableBehaviour.Status.TRACKED;
+
+    private bool unlocked = false;
 
     private void Awake()
     {
@@ -24,7 +24,7 @@ public class ARLock : MonoBehaviour
 
     private void Update()
     {
-        if (key.CurrentStatus == unlockStatus)
+        if (!unlocked && key.CurrentStatus == unlockStatus)
             Unlock();
     }
 
@@ -35,13 +35,13 @@ public class ARLock : MonoBehaviour
 
     public void Lock()
     {
-        objectToUnlock.enabled = false;
+        objectToUnlock.enabled = unlocked = false;
         Debug.Log($"{objectToUnlock.name} Locked");
     }
 
     public void Unlock()
     {
-        objectToUnlock.enabled = true;
+        objectToUnlock.enabled = unlocked = true;
         Debug.Log($"{objectToUnlock.name} Unlocked");
     }
 }
