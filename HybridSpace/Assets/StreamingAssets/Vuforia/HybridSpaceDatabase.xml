@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
-  <Tracking>
-    <ImageTarget name="Klarinet" size="0.060000 0.109817" />
-    <ImageTarget name="Kleurenboom" size="39.500000 52.666668" />
-    <ImageTarget name="Astronaut_scaled" size="0.578947 1.000719" />
-  </Tracking>
+<QCARConfig>
+    <Tracking>
+        <CylinderTarget name="GreenCylinderScaled" sideLength="0.030000"/>
+        <CylinderTarget name="GreenCylinder" sideLength="0.300000"/>
+        <ImageTarget name="Klarinet" size="0.060000 0.109817"/>
+        <ImageTarget name="Kleurenboom" size="39.500000 52.666668"/>
+        <ImageTarget name="Astronaut_scaled" size="0.578947 1.000719"/>
+        <ImageTarget name="RedCuboid.Top" size="0.030000 0.030000"/>
+        <ImageTarget name="RedCuboid.Bottom" size="0.030000 0.030000"/>
+        <MultiTarget name="RedCuboid">
+            <Part name="RedCuboid.Top" translation="0 0.029999999329447746 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="RedCuboid.Bottom" translation="0 -0.029999999329447746 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
 </QCARConfig>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VuforiaUnityInfo version="7.0">
+    <TargetSet version="5.0" toolVersion="2.8.0">
+        <CylinderTarget name="GreenCylinderScaled" version="3.0" targetId="0ce80df194e34836a13096d38748f257" sideLength="0.030000" topDiameter="0.030000" bottomDiameter="0.030000" sideImage="GreenCylinderScaled.Body_scaled.jpg" topImage="GreenCylinderScaled.Top_scaled.jpg" bottomImage="GreenCylinderScaled.Bottom_scaled.jpg"/>
+        <CylinderTarget name="GreenCylinder" version="3.0" targetId="99b6852c943d4e3daa98f7c2386de21d" sideLength="0.300000" topDiameter="0.300000" bottomDiameter="0.300000" sideImage="GreenCylinder.Body_scaled.jpg" topImage="GreenCylinder.Top_scaled.jpg" bottomImage="GreenCylinder.Bottom_scaled.jpg"/>
+    </TargetSet>
+</VuforiaUnityInfo>
