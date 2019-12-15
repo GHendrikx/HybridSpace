@@ -7,7 +7,8 @@ public class OnARState : MonoBehaviour
 {
     [SerializeField]
     private TrackableBehaviour.Status state = TrackableBehaviour.Status.TRACKED;
-
+    [SerializeField]
+    private bool triggerOnce = false;
     [SerializeField]
     private UnityEvent onEnterState = new UnityEvent();
     [SerializeField]
@@ -38,6 +39,9 @@ public class OnARState : MonoBehaviour
                 onLeaveState.Invoke();
                 entered = false;
             }
+
+            if (triggerOnce)
+                Destroy(this);
         }
     }
 }
