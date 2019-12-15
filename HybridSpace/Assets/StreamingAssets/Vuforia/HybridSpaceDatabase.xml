@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
     <Tracking>
-        <CylinderTarget name="GreenCylinderScaled" sideLength="0.030000"/>
-        <CylinderTarget name="GreenCylinder" sideLength="0.300000"/>
         <ImageTarget name="Klarinet" size="0.060000 0.109817"/>
         <ImageTarget name="Kleurenboom" size="39.500000 52.666668"/>
         <ImageTarget name="Astronaut_scaled" size="0.578947 1.000719"/>
-        <ImageTarget name="RedCuboid.Top" size="0.030000 0.030000"/>
-        <ImageTarget name="RedCuboid.Bottom" size="0.030000 0.030000"/>
-        <MultiTarget name="RedCuboid">
-            <Part name="RedCuboid.Top" translation="0 0.029999999329447746 0" rotation="AD: 1 0 0 -90"/>
-            <Part name="RedCuboid.Bottom" translation="0 -0.029999999329447746 0" rotation="AD: 1 0 0 90"/>
+        <ImageTarget name="Venz.Right" size="0.040000 0.155000"/>
+        <ImageTarget name="Venz.Top" size="0.095000 0.040000"/>
+        <ImageTarget name="Venz.Bottom" size="0.095000 0.040000"/>
+        <ImageTarget name="Venz.Left" size="0.040000 0.155000"/>
+        <ImageTarget name="Venz.Back" size="0.095000 0.155000"/>
+        <ImageTarget name="Venz.Front" size="0.095000 0.155000"/>
+        <MultiTarget name="Venz">
+            <Part name="Venz.Left" translation="-0.04749999940395355 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Venz.Right" translation="0.04749999940395355 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Venz.Front" translation="0 0 0.019999999552965164" rotation="AD: 1 0 0 0"/>
+            <Part name="Venz.Back" translation="0 0 -0.019999999552965164" rotation="AD: 0 1 0 180"/>
+            <Part name="Venz.Top" translation="0 0.07750000059604645 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Venz.Bottom" translation="0 -0.07750000059604645 0" rotation="AD: 1 0 0 90"/>
         </MultiTarget>
     </Tracking>
 </QCARConfig>
