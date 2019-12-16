@@ -7,10 +7,11 @@ public class SoundManager : Singleton<SoundManager>
     private AudioSource audioSource;
     private AudioClip[] clips;
     private bool clipIsPlayed;
+
     private void Start()
     {
         audioSource = Camera.main.GetComponent<AudioSource>();
-        Resources.LoadAll<AudioClip>("Clips/");
+        clips = Resources.LoadAll<AudioClip>("Clips/");
     }
 
     public void PlaySound(int index)

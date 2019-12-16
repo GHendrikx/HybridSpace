@@ -16,8 +16,8 @@ public class Item : MonoBehaviour
     // Start is called before the first frame update
     private void OnEnable()
     {
-        itemText.text = itemName;
-        description.text = itemDescription;
+        //itemText.text = itemName;
+        //description.text = itemDescription;
         scanned = true;
         Debug.Log("Enabled");
     }
