@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using Vuforia;
 
+[RequireComponent(typeof(ImageTargetBehaviour))]
 public class Item : MonoBehaviour
 {
     [SerializeField]
@@ -11,14 +13,18 @@ public class Item : MonoBehaviour
     private Text itemText;
     [SerializeField]
     private Text description;
-    private bool scanned;
-    
-    // Start is called before the first frame update
-    private void OnEnable()
+
+    private ImageTargetBehaviour target;
+
+    private void Start()
     {
-        //itemText.text = itemName;
-        //description.text = itemDescription;
-        scanned = true;
-        Debug.Log("Enabled");
+        target = GetComponent<ImageTargetBehaviour>();
+        Debug.LogWarning($"{target.TrackableName} - {target.ImageTarget.Name} - {target.ImageTarget.ID}");
+    }
+
+    private void SetUI()
+    {
+        itemText.text = itemName;
+        description.text = itemDescription;
     }
 }

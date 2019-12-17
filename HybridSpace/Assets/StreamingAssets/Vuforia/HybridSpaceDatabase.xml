@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
     <Tracking>
-        <ImageTarget name="Klarinet" size="0.060000 0.109817"/>
-        <ImageTarget name="Kleurenboom" size="39.500000 52.666668"/>
+        <ImageTarget name="Lamp2-min" size="0.100000 0.100000"/>
+        <ImageTarget name="Lamp1-min" size="0.100000 0.100042"/>
+        <ImageTarget name="Cake_Redmold_Top-min" size="0.250000 0.138065"/>
+        <ImageTarget name="Cup-min" size="0.090000 0.074520"/>
+        <ImageTarget name="Vinyl_Record-min" size="0.310000 0.313499"/>
+        <ImageTarget name="TV-min-2" size="0.350000 0.077409"/>
+        <ImageTarget name="TV-min-1" size="0.350000 0.350284"/>
+        <ImageTarget name="Outline-min" size="1.300000 1.945888"/>
+        <ImageTarget name="Remote" size="0.050000 0.182260"/>
+        <ImageTarget name="Notebook" size="0.130000 0.097500"/>
+        <ImageTarget name="Music_Box" size="0.115000 0.148743"/>
+        <ImageTarget name="Family_Picture" size="0.225000 0.168750"/>
+        <ImageTarget name="Butterfly_Picture" size="0.165000 0.123750"/>
+        <ImageTarget name="Bible" size="0.120000 0.090000"/>
         <ImageTarget name="Astronaut_scaled" size="0.578947 1.000719"/>
+        <ImageTarget name="Moving_Box.Front" size="0.485000 0.335000"/>
+        <ImageTarget name="Moving_Box.Left" size="0.220000 0.335000"/>
+        <ImageTarget name="Moving_Box.Right" size="0.220000 0.335000"/>
+        <ImageTarget name="Moving_Box.Back" size="0.485000 0.335000"/>
+        <ImageTarget name="Moving_Box.Top" size="0.485000 0.220000"/>
+        <ImageTarget name="Moving_Box.Bottom" size="0.485000 0.220000"/>
+        <ImageTarget name="Venz.Front" size="0.095000 0.155000"/>
+        <ImageTarget name="Venz.Left" size="0.040000 0.155000"/>
         <ImageTarget name="Venz.Right" size="0.040000 0.155000"/>
+        <ImageTarget name="Venz.Back" size="0.095000 0.155000"/>
         <ImageTarget name="Venz.Top" size="0.095000 0.040000"/>
         <ImageTarget name="Venz.Bottom" size="0.095000 0.040000"/>
-        <ImageTarget name="Venz.Left" size="0.040000 0.155000"/>
-        <ImageTarget name="Venz.Back" size="0.095000 0.155000"/>
-        <ImageTarget name="Venz.Front" size="0.095000 0.155000"/>
+        <MultiTarget name="Moving_Box">
+            <Part name="Moving_Box.Left" translation="-0.24250000715255737 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Moving_Box.Right" translation="0.24250000715255737 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Moving_Box.Front" translation="0 0 0.10999999940395355" rotation="AD: 1 0 0 0"/>
+            <Part name="Moving_Box.Back" translation="0 0 -0.10999999940395355" rotation="AD: 0 1 0 180"/>
+            <Part name="Moving_Box.Top" translation="0 0.16750000417232513 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Moving_Box.Bottom" translation="0 -0.16750000417232513 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
         <MultiTarget name="Venz">
             <Part name="Venz.Left" translation="-0.04749999940395355 0 0" rotation="AD: 0 1 0 -90"/>
             <Part name="Venz.Right" translation="0.04749999940395355 0 0" rotation="AD: 0 1 0 90"/>
