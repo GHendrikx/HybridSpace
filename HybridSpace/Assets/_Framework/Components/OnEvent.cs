@@ -32,6 +32,7 @@ public class OnEvent : MonoBehaviour
     public enum EventTrigger
     {
         None,
+        OnAwake,
         OnStart,
         OnDestroy,
         OnEnable,
@@ -62,6 +63,11 @@ public class OnEvent : MonoBehaviour
     private bool CheckTag(string tag)
     {
         return !checkTag || collisionTag == tag;
+    }
+
+    private void Awake()
+    {
+        HandleGameEvent(EventTrigger.OnAwake);
     }
 
     private void Start()

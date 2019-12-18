@@ -2741,10 +2741,10 @@ RectTransform:
   m_Father: {fileID: 2026606976}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 700, y: -320.01498}
-  m_SizeDelta: {x: 1400, y: 159.01}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &594113669
 MonoBehaviour:
@@ -3571,10 +3571,10 @@ RectTransform:
   m_Father: {fileID: 2026606976}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 700, y: -115.255}
-  m_SizeDelta: {x: 1400, y: 230.51}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &765152242
 MonoBehaviour:
@@ -7502,13 +7502,14 @@ GameObject:
   - component: {fileID: 1947512036}
   - component: {fileID: 1947512035}
   - component: {fileID: 1947512037}
+  - component: {fileID: 1947512038}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1947512032
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7527,7 +7528,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 419.52}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1947512033
 MonoBehaviour:
@@ -7624,6 +7625,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1947512038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947512031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e8278310bcdd44b8fdf1c985756c23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventTrigger: 1
+  checkTag: 0
+  collisionTag: 
+  triggerOnce: 1
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1947512031}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  colliderEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  collider2DEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  collisionEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  collision2DEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!21 &1963856572
 Material:
   serializedVersion: 6
@@ -8067,10 +8110,10 @@ RectTransform:
   m_Father: {fileID: 1947512032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 720, y: -10}
-  m_SizeDelta: {x: 1400, y: 399.52}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2026606977
 MonoBehaviour:
