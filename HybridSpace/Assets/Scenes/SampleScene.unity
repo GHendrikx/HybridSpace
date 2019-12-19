@@ -143,7 +143,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e0e150a58c1d4be1bf38033abd1267ce, type: 3}
+        m_Texture: {fileID: 2800000, guid: e7aaca9228364f5988399758621eaa33, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1155,7 +1155,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4a1285c48f8f45679dcf9689d5d485c2, type: 3}
+        m_Texture: {fileID: 2800000, guid: e7759316c2114bacb895fdf8e46f2e02, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -2428,7 +2428,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9bf12d6e0c0749c5aed7b4149a84e716, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5b94f0e27dc04feab4a6f280aebcb0ac, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -3949,7 +3949,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 61cee3a736444d6da981fe61930af2b2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 06ec64c673984cc4bf49ed34c163743b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -3977,7 +3977,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 693dea6c00334197bac4913a4a5e2fd2, type: 3}
+        m_Texture: {fileID: 2800000, guid: b6db17e03cf948f8a6acebfddf2e227a, type: 3}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -5085,7 +5085,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6d4ffc75346f4b8eb8ce209ac095a997, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5eb63503a35f44dc852698ce9633b73f, type: 3}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -5927,7 +5927,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1bfcc086820d4ed7a7e67e1c93a9639d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 34c4139ce601432fb85b6ecf9fa75a01, type: 3}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -5951,7 +5951,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.37499997}
+      m_Extent: {x: 0.43374544, y: 0, z: 0.5}
   m_Shapes:
     vertices: []
     shapes: []
@@ -6030,7 +6030,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000ffffbfbe000000000000803f000000000000000000000000000000bf00000000ffffbf3e000000000000803f00000000000000000000803f0000003f00000000ffffbfbe000000000000803f000000000000803f000000000000003f00000000ffffbf3e000000000000803f000000000000803f0000803f
+    _typelessdata: e213debe00000000000000bf000000000000803f000000000000000000000000e213debe000000000000003f000000000000803f00000000000000000000803fe213de3e00000000000000bf000000000000803f000000000000803f00000000e213de3e000000000000003f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -6146,7 +6146,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 584463d0aaa34b368c96d029f796daf3, type: 3}
+        m_Texture: {fileID: 2800000, guid: d88d42f52dbd45418fdb5e3a68d15c42, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -6267,7 +6267,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 0a6aedd98a6840fc8e9d5a9dc8b36b4c, type: 3}
+        m_Texture: {fileID: 2800000, guid: ab24074e8ef0427b90752202263eb430, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -6487,7 +6487,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 94b7774916174250825ac604444f8794, type: 3}
+        m_Texture: {fileID: 2800000, guid: 18aeaede66164f7292066bd039ebe5c1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -6897,7 +6897,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 87cab44432dd4b6db5c66e695f74d96c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 27a9ec15d4b64ccb8823a0b19586202c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -6925,7 +6925,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 0010ea11225e40cdb420e1a737ef5a01, type: 3}
+        m_Texture: {fileID: 2800000, guid: a11c8b764f0444b2ba66887492e02095, type: 3}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -7324,7 +7324,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 176320525c1f49f78959d08a45417dd0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0817d12a67a34ce299e54509248fe761, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -7742,7 +7742,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 3a0b3b280e224a4eae5c52652031bbbb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 09cdf08c84e744d1874f933ba121f939, type: 3}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -7770,7 +7770,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d666f7f548b34762b08a3f965a47cd61, type: 3}
+        m_Texture: {fileID: 2800000, guid: 41583cb3b7984fbabdfbd10cf143da21, type: 3}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -8383,7 +8383,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 68d7aca4b8934790998ffb23028d37a1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 199e28077cb4457b851b1cbd0683e063, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -9105,7 +9105,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 181a9e70964845dcbd35c02f7cebbaa9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 70006f14eb2c4f449baea3d7c0812844, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -9551,7 +9551,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9d5801a9d4ce4fe685d928d1d89809aa, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1d476972225f41a1835f58f0a7eb8390, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -9793,7 +9793,7 @@ MonoBehaviour:
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/HybridSpaceDatabase.xml
-  mAspectRatio: 0.74999994
+  mAspectRatio: 1.1527499
   mImageTargetType: 0
   mWidth: 0.3
   mHeight: 0.225
